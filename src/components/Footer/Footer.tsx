@@ -27,10 +27,7 @@ export const Footer = () => {
 
   const socialLinks = [
     { name: 'Discord', url: siteConfig.social?.discord, icon: 'discord' },
-    { name: 'Twitter', url: siteConfig.social?.twitter, icon: 'twitter' },
     { name: 'Youtube', url: siteConfig.social?.youtube, icon: 'youtube' },
-    { name: 'Instagram', url: siteConfig.social?.instagram, icon: 'instagram' },
-    { name: 'Twitch', url: siteConfig.social?.twitch, icon: 'twitch' },
   ].filter(link => link.url)
 
   const navigationLinks = siteConfig.ui?.navigation?.menuItems || ['Features', 'Jobs', 'Rules', 'Team', 'Gallery']
