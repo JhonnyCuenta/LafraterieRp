@@ -13,25 +13,25 @@ const DiscordIcon = ({ className }: { className?: string }) => (
 )
 
 export const Footer = () => {
-    const getSocialIcon = (platform: string) => {
-        switch (platform.toLowerCase()) {
-            case 'discord': return DiscordIcon
-            case 'twitter': return Twitter
-            case 'youtube': return Youtube
-            case 'instagram': return Instagram
-            case 'twitch': return Twitch
-            case 'github': return Github
-            default: return ExternalLink
-        }
+  const getSocialIcon = (platform: string) => {
+    switch (platform.toLowerCase()) {
+      case 'discord': return DiscordIcon
+      case 'twitter': return Twitter
+      case 'youtube': return Youtube
+      case 'instagram': return Instagram
+      case 'twitch': return Twitch
+      case 'github': return Github
+      default: return ExternalLink
     }
+  }
 
-    const socialLinks = [
-        { name: 'Discord', url: siteConfig.social?.discord, icon: 'discord' },
-        { name: 'Twitter', url: siteConfig.social?.twitter, icon: 'twitter' },
-        { name: 'Youtube', url: siteConfig.social?.youtube, icon: 'youtube' },
-        { name: 'Instagram', url: siteConfig.social?.instagram, icon: 'instagram' },
-        { name: 'Twitch', url: siteConfig.social?.twitch, icon: 'twitch' },
-    ].filter(link => link.url)
+  const socialLinks = [
+    { name: 'Discord', url: siteConfig.social?.discord, icon: 'discord' },
+    { name: 'Twitter', url: siteConfig.social?.twitter, icon: 'twitter' },
+    { name: 'Youtube', url: siteConfig.social?.youtube, icon: 'youtube' },
+    { name: 'Instagram', url: siteConfig.social?.instagram, icon: 'instagram' },
+    { name: 'Twitch', url: siteConfig.social?.twitch, icon: 'twitch' },
+  ].filter(link => link.url)
 
   const navigationLinks = siteConfig.ui?.navigation?.menuItems || ['Features', 'Jobs', 'Rules', 'Team', 'Gallery']
 
