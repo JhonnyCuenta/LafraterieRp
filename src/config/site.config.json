@@ -24,10 +24,10 @@
   },
   "legal": {
     "companyName": "LaFraterie Roleplay",
-    "email": "contact@nightcity-rp.com",
-    "privacyEmail": "privacy@nightcity-rp.com",
-    "dpoEmail": "dpo@nightcity-rp.com",
-    "supportEmail": "support@nightcity-rp.com",
+    "email": "capc85544@gmail.com",
+    "privacyEmail": "capc85544@gmail.com",
+    "dpoEmail": "capc85544@gmail.com",
+    "supportEmail": "capc85544@gmail.com",
     "lastUpdated": "2025-01-01",
     "minAge": 18,
     "copyrightYear": 2025,
@@ -45,21 +45,21 @@
     "tagline": "Where Legends Are Written",
     "slogan": "Every Story. Every Choice. Every Moment.",
     "description": "Experience cinematic storytelling in Los Santos. Shape your narrative, build your empire, and become a legend in the most immersive roleplay environment.",
-    "ip": "play.nightcity-rp.com",
-    "port": "30120",
-    "discord": "https://discord.gg/fourtwenty",
+    "ip": "connect game02.octoheberg.fr:30133",
+    "port": "30133",
+    "discord": "https://discord.gg/VYaeT4KH",
     "maxPlayers": 256,
     "location": "Los Santos",
-    "language": "English",
+    "language": "Francais",
     "logo": {
       "type": "text",
       "content": "NC"
     },
     "stats": {
       "established": "2024",
-      "totalPlayers": "15,000+",
+      "totalPlayers": "100+",
       "activeGangs": "12",
-      "businesses": "45+"
+      "businesses": "30+"
     },
     "loadingTips": [
       "Every character has a story. What's yours?",
@@ -363,7 +363,7 @@
         "category": "mechanic",
         "description": "Automotive specialist providing repair and customization services",
         "requirements": ["No requirements", "Training provided"],
-        "salary": 150,
+        "salary": 250,
         "image": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600&h=400&fit=crop"
       },
       {
@@ -372,7 +372,7 @@
         "category": "civilian",
         "description": "Professional transportation services throughout Los Santos",
         "requirements": ["Valid license", "Clean driving record"],
-        "salary": 100,
+        "salary": 500,
         "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&h=400&fit=crop"
       },
       {
@@ -585,40 +585,30 @@
   "team": [
     {
       "id": "john-doe",
-      "name": "John 'Boss' Doe",
+      "name": "Jhonny 'Boss' Doe",
       "role": "Server Owner",
-      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-      "discord": "bigboss",
+      "avatar": "https://i.postimg.cc/fbc4t6hT/avatar.jpg",
+      "discord": "##",
       "description": "Founder and visionary leader of NightCity Roleplay",
       "badge": "FOUNDER",
       "status": "active"
     },
     {
-      "id": "jane-smith",
-      "name": "Jane 'Control' Smith",
-      "role": "Head Administrator",
-      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      "discord": "control",
-      "description": "Ensuring server integrity and exceptional player experiences",
-      "badge": "ADMIN",
-      "status": "active"
-    },
-    {
       "id": "mike-wilson",
-      "name": "Mike 'Tech' Wilson",
+      "name": "Jack 'Tech' Wilson",
       "role": "Lead Developer",
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      "discord": "techguy",
+      "avatar": "https://i.postimg.cc/fbc4t6hT/avatar.jpg",
+      "discord": "##",
       "description": "Lead technical architect creating innovative gameplay systems",
       "badge": "DEV",
       "status": "active"
     },
     {
       "id": "sarah-jones",
-      "name": "Sarah 'Peace' Jones",
+      "name": "KobaLad 'Peace' Jones",
       "role": "Senior Moderator",
-      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-      "discord": "peacekeeper",
+      "avatar": "https://i.postimg.cc/fbc4t6hT/avatar.jpg",
+      "discord": "##",
       "description": "Community liaison and conflict resolution specialist",
       "badge": "MOD",
       "status": "active"
@@ -630,12 +620,9 @@
     "refreshInterval": 30000
   },
   "social": {
-    "discord": "https://discord.gg/fourtwenty",
-    "twitter": "https://twitter.com/nightcityrp",
-    "youtube": "https://youtube.com/@nightcityrp",
-    "tiktok": "https://tiktok.com/@nightcityrp",
-    "instagram": "https://instagram.com/nightcityrp",
-    "twitch": "https://twitch.tv/nightcityrp",
+    "discord": "https://discord.gg/VYaeT4KH",
+    "youtube": "https://www.youtube.com/@Lejogtarp",
+    "tiktok": "https://www.tiktok.com/@lejoroleplay?lang=fr",
     "teamspeak": null,
     "forum": null
   },
@@ -658,27 +645,27 @@
   "donations": {
     "enabled": true,
     "currency": "USD",
-    "paypalUrl": "https://paypal.me/nightcityrp",
+    "paypalUrl": "revolut.me/jackou77370",
     "packages": [
       {
         "id": "supporter",
         "name": "Street Supporter",
         "price": 5,
-        "perks": ["Priority Queue", "Supporter Tag", "Extra Outfit Slot"],
+        "perks": [ "Priority Queue", "Supporter Tag", "Extra Outfit Slot" ],
         "popular": false
       },
       {
         "id": "vip",
         "name": "VIP Status",
         "price": 15,
-        "perks": ["Priority Queue", "VIP Tag", "Extra Character Slot", "Custom Plate", "VIP Lounge Access"],
+        "perks": [ "Priority Queue", "VIP Tag", "Extra Character Slot", "Custom Plate", "VIP Lounge Access" ],
         "popular": true
       },
       {
         "id": "elite",
         "name": "Elite Gang",
         "price": 30,
-        "perks": ["Priority Queue", "Elite Tag", "2 Extra Character Slots", "Custom Plate", "Exclusive Vehicles", "Custom Gang Tag"],
+        "perks": [ "Priority Queue", "Elite Tag", "2 Extra Character Slots", "Custom Plate", "Exclusive Vehicles", "Custom Gang Tag" ],
         "popular": false
       }
     ]
@@ -687,7 +674,7 @@
     "showNewsletter": false,
     "showSocialLinks": true,
     "showLegalLinks": true,
-    "showServerStats": true,
+    "showServerStats": false,
     "copyright": "© 2025 NightCity Roleplay. All rights reserved.",
     "disclaimer": "Not affiliated with Rockstar Games or Take-Two Interactive."
   }
