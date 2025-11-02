@@ -16,10 +16,7 @@ export const Footer = () => {
   const getSocialIcon = (platform: string) => {
     switch (platform.toLowerCase()) {
       case 'discord': return DiscordIcon
-      case 'twitter': return Twitter
       case 'youtube': return Youtube
-      case 'instagram': return Instagram
-      case 'twitch': return Twitch
       case 'github': return Github
       default: return ExternalLink
     }
